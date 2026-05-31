@@ -1,0 +1,5 @@
+numpy>=1.26
+openai>=1.40
+anthropic>=0.34
+google-generativeai>=0.7
+sentence-transformers>=2.7

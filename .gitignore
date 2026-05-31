@@ -1,0 +1,24 @@
+# Experiment outputs (regenerable; logs can be large)
+runs/
+*.jsonl
+!**/sample_*.jsonl
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.egg-info/
+
+# OS
+.DS_Store
+
+# Secrets — never commit API keys
+.env.local
+secrets.sh
+.venv/
+
+# Keep the released review dataset (override *.jsonl for this path)
+!results_preview/full4model/messages.jsonl
+!results_preview/full4model/comprehension.jsonl

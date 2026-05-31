@@ -1,0 +1,2 @@
+model,n_cells,mean_I_norm,mean_N_hat,slope_I_on_b,slope_N_on_b,frac_overreveal_N
+gpt-4o,15,0.8805174856853532,2.0,-2.170458547592467,1.7093001656742788e-15,0.0

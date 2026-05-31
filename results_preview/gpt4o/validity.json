@@ -1,0 +1,54 @@
+[
+  {
+    "check": "valid_output_rate",
+    "rate": 1.0,
+    "target": 0.95,
+    "fail_threshold": 0.9,
+    "status": "ok",
+    "detail": {
+      "n": 3000,
+      "invalid": 0
+    }
+  },
+  {
+    "check": "empty_output_rate",
+    "rate": 0.0,
+    "target": 0.02,
+    "fail_threshold": 0.05,
+    "status": "ok",
+    "detail": {
+      "n": 3000,
+      "empty": 0
+    }
+  },
+  {
+    "check": "format_violation_rate",
+    "rate": 0.0,
+    "target": 0.05,
+    "fail_threshold": 0.1,
+    "status": "ok",
+    "detail": {
+      "n": 3000,
+      "format_violation": 0
+    }
+  },
+  {
+    "check": "comprehension_pass_rate",
+    "rate": 1.0,
+    "target": 0.95,
+    "fail_threshold": 0.9,
+    "status": "ok",
+    "detail": {
+      "n": 15,
+      "passes": 15
+    }
+  },
+  {
+    "check": "receiver_decoder_R2_at_b0",
+    "rate": 0.9999999802073802,
+    "target": 0.9,
+    "fail_threshold": 0.8,
+    "status": "ok",
+    "detail": {}
+  }
+]
